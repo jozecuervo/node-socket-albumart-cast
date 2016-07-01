@@ -1,0 +1,47 @@
+/* Fix user-agent */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, input {
+  font-family:
+    "HelveticaNeue-Light",
+    "Helvetica Neue Light",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    "Lucida Grande",
+    sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: black;
+  color:white;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  word-wrap: break-word;
+}
+h6.guid {display: none;}
+/* Pages */
+img.thumb {
+    height:100%;
+border:0;
+}
+h2.title {
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+}

@@ -1,0 +1,15 @@
+{
+    "extends": "standard",
+    "plugins": [
+        "standard"
+    ],
+    "globals": {
+      "$": true,
+      "io": true
+    },
+    "rules":{
+      "prefer-arrow-callback": [0],
+      "prefer-template": [0],
+      "func-names": [0]
+    }
+}
